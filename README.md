@@ -6,7 +6,7 @@ _Data Analyst and Scientist_ <br>
 
 ## 👩🏼‍💻 Engineering Experience
 
-**Mentor Projet Deep Learning** @ [DataScientest](https://datascientest.com/) _(Avr 2023 - Present)_ <br>
+**Mentor Projet Deep Learning** @ [DataScientest](https://datascientest.com/) _(Apr 2023 - Present)_ <br>
 I work with several groups of learners on the subject of computer vision and deep learning. The aim is to build skills in the methodology for dealing with a deep learning problem, and also to master tools such as TensorFlow and OpenCV.
   - **_Technologies used:_** Python, TensorFlow, OpenCV, Streamlit, Gradio.
 <br><br>

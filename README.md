@@ -5,7 +5,8 @@
 ## 👩🏼‍💻 Engineering Experience
 
 **Mentor Projet Deep Learning** @ [DataScientest](https://datascientest.com/) _(Apr 2023 - Present)_ <br>
-I work with several groups of learners on the subject of computer vision and deep learning. The aim is to build skills in the methodology for dealing with a deep learning problem, and also to master tools such as TensorFlow and OpenCV.
+- Mentoring several groups of learners on the subject of computer vision and deep learning. 
+- Building skills with deep learning methodology, and also helping learners mastering tools such as TensorFlow and OpenCV.
   - **_Technologies used:_** Python, TensorFlow, OpenCV, Streamlit, Gradio.
 <br><br>
 

@@ -1,6 +1,4 @@
-# Gaël Penessot
-
-_Data Analyst and Scientist_ <br>
+# CV
 
 [Email](mailto:gael.penessot@data-decision.io) / [Website](https://www.data-decision.io/) / [LinkedIn](https://www.linkedin.com/in/gael-penessot/) / [GitHub](https://github.com/gpenessot/)
 

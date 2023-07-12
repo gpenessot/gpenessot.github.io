@@ -32,7 +32,9 @@ Jury for Microsoft / Simplon.co / GRETA 21 Artificial Intelligence Developer cer
 ## 🗞 Writing Experience
 
 **Reviewer** @ [Manning Publications](https://www.manning.com/) _(May 2023 - Present)_ <br>
-Book reviewing and liveProject beta tester.
+Book reviewing and liveProject beta tester:
+- Data Analysis From The Trenches, Gabriel Rigall
+- Software Engineering For Data Scientist, Andrew Treadway 
 <br><br>
 
 ## 📌 Volunteering

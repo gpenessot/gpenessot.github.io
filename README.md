@@ -21,6 +21,13 @@
 Jury for Microsoft / Simplon.co / GRETA 21 Artificial Intelligence Developer certification.
   <br><br>
 
+**Marketing Intelligence & Data Teacher** @ [INSEEC](https://www.inseec.com/) _(Oct 2022 - Present)_ <br>
+Teahcing a course about AI and applications in Marketing :
+- Introduction to AI
+- Marketing Analytics
+- GDRP
+- Data Governance
+
 **Data Analyst** @ [EDF](https://www.edf.fr/) _(Apr 2019 - Present)_ <br> 
 - Dashboard development and maintenance for the executive committee
 - Tools developement for operationnal management in cooperation with managers

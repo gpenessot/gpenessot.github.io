@@ -47,6 +47,7 @@ Worked on data quality issues on [Carbon Bombs](https://github.com/dataforgoodfr
 **2023**<br>
 [edX - Large Language Models - Application through Production](https://github.com/gpenessot/Certificates/blob/master/edX%20-%20Large%20Language%20Models%20-%20Application%20through%20Production.png) <br>
 [OpenCV Deep Learning with PyTorch](https://courses.opencv.org/certificates/7e0fb96e887e4770a2076aa2cc22edef) <br>
+[DeepLearning.AI - Generative Adversarial Networks (GANs)](https://www.coursera.org/account/accomplishments/specialization/certificate/JLJ7HG7L4A7A) <br>
 **2022** <br>
 [DeepLearning.AI - TensorFlow Developer](https://github.com/gpenessot/Certificates/blob/master/DeepLearning.AI%20-%20TensorFlow%20Developer.pdf) <br>
 [INRIA Machine Learning in Python with Scikit_learn](https://github.com/gpenessot/Certificates/blob/master/INRIA_Machine%20Learning%20in%20Python%20with%20Scikit_learn.pdf) <br>

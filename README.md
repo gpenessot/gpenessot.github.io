@@ -49,7 +49,7 @@ Worked on data quality issues on [Carbon Bombs](https://github.com/dataforgoodfr
 [OpenCV Deep Learning with PyTorch](https://courses.opencv.org/certificates/7e0fb96e887e4770a2076aa2cc22edef) <br>
 **2022** <br>
 [DeepLearning.AI - TensorFlow Developer](https://github.com/gpenessot/Certificates/blob/master/DeepLearning.AI%20-%20TensorFlow%20Developer.pdf) <br>
-[INRIA_Machine Learning in Python with Scikit_learn](https://github.com/gpenessot/Certificates/blob/master/INRIA_Machine%20Learning%20in%20Python%20with%20Scikit_learn.pdf) <br>
+[INRIA Machine Learning in Python with Scikit_learn](https://github.com/gpenessot/Certificates/blob/master/INRIA_Machine%20Learning%20in%20Python%20with%20Scikit_learn.pdf) <br>
 **2021** <br>
 [DataCamp Data Scientist Professional](https://github.com/gpenessot/Certificates/blob/master/DataCamp_Data_Scientist_Professionnal_Certificate.png) <br>
 **2020** <br>

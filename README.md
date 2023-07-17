@@ -61,7 +61,7 @@ Worked on data quality issues on [Carbon Bombs](https://github.com/dataforgoodfr
 
 ## 💬 Languages
 
-**French**:Native <br>
+**French**: Native <br>
 **English**: C1 <br>
 **Spanish**: B2 <br>
 <br><br>

@@ -13,7 +13,8 @@
 **Data Analyst Mentor** @ [OpenClassrooms](https://openclassrooms.com/) _(Apr 2021 - Present)_ <br>
 - Supporting students skills development in data analysis
 - Monitoring the production of deliverables (10 projects)
-- Created project for a new learning path (BI Analyst)
+- Created a project for a new learning path (BI Analyst)
+- Beta tested new projects for OpenClassrooms
   - **_Technologies used:_** Python, Tableau, Scikit-learn, knime.
     <br><br>
 

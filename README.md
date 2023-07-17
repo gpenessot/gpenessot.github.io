@@ -2,7 +2,7 @@
 
 [Email](mailto:gael.penessot@data-decision.io) / [Website](https://www.data-decision.io/) / [LinkedIn](https://www.linkedin.com/in/gael-penessot/) / [GitHub](https://github.com/gpenessot/)
 
-## 👩🏼‍💻 Experience
+## :computer: Experience
 
 **Deep Learning Project Mentor** @ [DataScientest](https://datascientest.com/) _(Apr 2023 - Present)_ <br>
 - Mentoring several groups of learners on the subject of computer vision and deep learning. 

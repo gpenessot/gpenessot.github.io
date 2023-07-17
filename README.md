@@ -77,7 +77,7 @@ Worked on data quality issues on [Carbon Bombs](https://github.com/dataforgoodfr
 
 ## :mortar_board: Education
 
-**Data Science Certification** focused on full-stack JavaScript<br>
+**Data Science Certification**<br>
 [Mines PARIS Executive Education](https://datascientest.com/) - Remote _(Nov 2021 - Aug 2023)_ <br>
 
 **MBA** General Management<br>

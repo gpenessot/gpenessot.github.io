@@ -2,7 +2,7 @@
 
 [Email](mailto:gael.penessot@data-decision.io) / [Website](https://www.data-decision.io/) / [LinkedIn](https://www.linkedin.com/in/gael-penessot/) / [GitHub](https://github.com/gpenessot/)
 
-## :computer: Experience
+## 💻 Experience
 
 **Deep Learning Project Mentor** @ [DataScientest](https://datascientest.com/) _(Apr 2023 - Present)_ <br>
 - Mentoring several groups of learners on the subject of computer vision and deep learning. 
@@ -44,7 +44,7 @@ Book reviewing and liveProject beta tester:
 - Software Engineering For Data Scientist, Andrew Treadway 
 <br><br>
 
-## :pushpin: Volunteering
+## 📌 Volunteering
 
 **Volunteer** @ [Data for Good](https://dataforgood.fr/) _(May 2023 - Present)_<br>
 Worked on data quality issues on [Carbon Bombs](https://github.com/dataforgoodfr/CarbonBombs) project :
@@ -52,7 +52,7 @@ Worked on data quality issues on [Carbon Bombs](https://github.com/dataforgoodfr
   - Used LLM to get missing data from webscraping
   <br><br>
 
-## :scroll: Certificates
+## 📜 Certificates
 **2023**<br>
 [edX - Large Language Models - Application through Production](https://github.com/gpenessot/Certificates/blob/master/edX%20-%20Large%20Language%20Models%20-%20Application%20through%20Production.png) <br>
 [OpenCV Deep Learning with PyTorch](https://courses.opencv.org/certificates/7e0fb96e887e4770a2076aa2cc22edef) <br>
@@ -69,14 +69,14 @@ Worked on data quality issues on [Carbon Bombs](https://github.com/dataforgoodfr
 [IBM Data Science Professional](https://github.com/gpenessot/Certificates/blob/master/Coursera_IBM_Data_Science_Professional_Certificate.pdf) <br>
 [Stanford Machine Learning](https://github.com/gpenessot/Certificates/blob/master/Coursera_Machine_Learning.pdf) <br><br>
 
-## :earth_americas: Languages
+## 🗺 Languages
 
 **French**: Native <br>
 **English**: C1 <br>
 **Spanish**: B2 <br>
 <br><br>
 
-## :mortar_board: Education
+## 🎓 Education
 
 **Data Science Certification**<br>
 [Mines PARIS Executive Education](https://datascientest.com/) - Remote _(Nov 2021 - Aug 2023)_ <br>

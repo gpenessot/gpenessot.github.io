@@ -71,7 +71,7 @@ Book reviewing and liveProject beta tester:
 
 ## Projects 
 
-**Watch Movement Finder** [Try here](https://watchmovfinder.streamlit.app/)
+**Watch Movement Finder** [Try here](https://watchmovfinder.streamlit.app/) <br>
 I've hand-collected a database of a thousand images of vintage chronograph movements (for the moment). The model detects 17 different movements with an F1 score close to 99%. I used a ResNet152 CNN.
 <br><br>
 

@@ -38,10 +38,21 @@ Teaching a course about AI and applications in Marketing :
   - **_Technologies used:_** Python, Power BI, QlikView, SQL, Luigi.
 <br><br>
 
-**Book Reviewer** @ [Manning Publications](https://www.manning.com/) _(May 2023 - Present)_ <br>
-Book reviewing and liveProject beta tester:
-- Data Analysis From The Trenches, Gabriel Rigall
-- Software Engineering For Data Scientist, Andrew Treadway 
+**Cost Estimator** [EDF](https://www.edf.fr/) _(Oct 2018 - Mar 2019)_ <br> 
+As part of the EPR 2 project, realization of various cost studies on passive safety systems, civil engineering, etc.
+<br><br>
+
+**Engineer** [EDF](https://www.edf.fr/) _(Nov 2014 - Sep 2018)_ <br> 
+- Responsible for calculation codes : Documentation, V&V, bug tracking, animation of the user community and training sessions (10 to 20 users per year).
+- Safety studies in the field of "Accessibility of buildings under accident conditions" (EPR and new models)
+- Development of Python tools for the automation of calculations and the processing of results
+- Qualification studies of equipment under severe accident conditions
+<br><br>
+
+**Engineer** [EDF](https://www.edf.fr/) _(Oct 2009 - Oct 2014)_ <br> 
+- Support to the project managers for maintenance operations on nuclear power plants
+- Writing of radiation protection study notes
+- Use of calculation codes: PANTHERE, MNCP X, GEANT 4
 <br><br>
 
 ## 📌 Volunteering
@@ -51,6 +62,12 @@ Worked on data quality issues on [Carbon Bombs](https://github.com/dataforgoodfr
   - Webscraping to complete a database about oil and gas projects
   - Used LLM to get missing data from webscraping
   <br><br>
+  
+**Book Reviewer** @ [Manning Publications](https://www.manning.com/) _(May 2023 - Present)_ <br>
+Book reviewing and liveProject beta tester:
+- Data Analysis From The Trenches, Gabriel Rigall
+- Software Engineering For Data Scientist, Andrew Treadway 
+<br><br>
 
 ## 📜 Certificates
 **2023**<br>

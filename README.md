@@ -79,6 +79,8 @@ I've hand-collected a database of a thousand images of vintage chronograph movem
 **Cancer detection** [Try my web app here](https://appcancerdetection.streamlit.app/) <br>
 This project was carried out with [Ummon HealthTech](https://www.ummonhealthtech.com/), who provided us with a dataset. The aim of this model is to identify metastatic cancer (and associated grade) in small image patches extracted from larger digital pathology scans.
   - **_Technologies used:_** Python, TensorFlow, Streamlit.
+<br><br>
+
 
 ## 📜 Certificates
 **2023**<br>

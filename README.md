@@ -89,7 +89,7 @@ This project was carried out with [Ummon HealthTech](https://www.ummonhealthtech
 [DeepLearning.AI - Generative Adversarial Networks (GANs)](https://www.coursera.org/account/accomplishments/specialization/certificate/JLJ7HG7L4A7A) <br>
 **2022** <br>
 [DeepLearning.AI - TensorFlow Developer](https://github.com/gpenessot/Certificates/blob/master/DeepLearning.AI%20-%20TensorFlow%20Developer.pdf) <br>
-[DataCamp - Data Engineer with Python](https://github.com/gpenessot/Certificates/blob/master/DataCamp_Data_Engineer_with_Python.pdf) 
+[DataCamp - Data Engineer with Python](https://github.com/gpenessot/Certificates/blob/master/DataCamp_Data_Engineer_with_Python.pdf) <br>
 [INRIA Machine Learning in Python with Scikit_learn](https://github.com/gpenessot/Certificates/blob/master/INRIA_Machine%20Learning%20in%20Python%20with%20Scikit_learn.pdf) <br>
 **2021** <br>
 [DataCamp Data Scientist Professional](https://github.com/gpenessot/Certificates/blob/master/DataCamp_Data_Scientist_Professionnal_Certificate.png) <br>

@@ -71,12 +71,12 @@ Book reviewing and liveProject beta tester:
 
 ## ⚙️ ML & AI Projects 
 
-**Watch Movement Finder** [Try here](https://watchmovfinder.streamlit.app/) <br>
+**Watch Movement Finder** [Try my web app here](https://watchmovfinder.streamlit.app/) <br>
 I've hand-collected a database of a thousand images of vintage chronograph movements (for the moment). The model detects 17 different movements with an F1 score close to 99%. I used a ResNet152 CNN.
   - **_Technologies used:_** Python, FastAI, Streamlit.
 <br><br>
 
-**Cancer detection** [Repo here]() <br>
+**Cancer detection** [Try my web app here](https://appcancerdetection.streamlit.app/) <br>
 This project was carried out with [Ummon HealthTech](https://www.ummonhealthtech.com/), who provided us with a dataset. The aim of this model is to identify metastatic cancer (and associated grade) in small image patches extracted from larger digital pathology scans.
   - **_Technologies used:_** Python, TensorFlow, Streamlit.
 

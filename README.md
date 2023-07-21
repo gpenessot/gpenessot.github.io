@@ -73,7 +73,12 @@ Book reviewing and liveProject beta tester:
 
 **Watch Movement Finder** [Try here](https://watchmovfinder.streamlit.app/) <br>
 I've hand-collected a database of a thousand images of vintage chronograph movements (for the moment). The model detects 17 different movements with an F1 score close to 99%. I used a ResNet152 CNN.
+  - **_Technologies used:_** Python, FastAI, Streamlit.
 <br><br>
+
+**Cancer detection** [Repo here]() <br>
+This project was carried out with [Ummon HealthTech](https://www.ummonhealthtech.com/), who provided us with a dataset. The aim of this model is to identify metastatic cancer (and associated grade) in small image patches extracted from larger digital pathology scans.
+  - **_Technologies used:_** Python, TensorFlow, Streamlit.
 
 ## 📜 Certificates
 **2023**<br>
@@ -82,6 +87,7 @@ I've hand-collected a database of a thousand images of vintage chronograph movem
 [DeepLearning.AI - Generative Adversarial Networks (GANs)](https://www.coursera.org/account/accomplishments/specialization/certificate/JLJ7HG7L4A7A) <br>
 **2022** <br>
 [DeepLearning.AI - TensorFlow Developer](https://github.com/gpenessot/Certificates/blob/master/DeepLearning.AI%20-%20TensorFlow%20Developer.pdf) <br>
+[DataCamp - Data Engineer with Python](https://github.com/gpenessot/Certificates/blob/master/DataCamp_Data_Engineer_with_Python.pdf) 
 [INRIA Machine Learning in Python with Scikit_learn](https://github.com/gpenessot/Certificates/blob/master/INRIA_Machine%20Learning%20in%20Python%20with%20Scikit_learn.pdf) <br>
 **2021** <br>
 [DataCamp Data Scientist Professional](https://github.com/gpenessot/Certificates/blob/master/DataCamp_Data_Scientist_Professionnal_Certificate.png) <br>

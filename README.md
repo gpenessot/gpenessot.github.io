@@ -71,6 +71,14 @@ Book reviewing and liveProject beta tester:
 
 ## ⚙️ ML & AI Projects 
 
+**Watch Price Prediction** [Work still in progress] <br> 
+The aim of this project is to help you find the right price for a vintage watch based on its characteristics. 
+  - **_Technologies used:_** Python, eBay API, Postgre, Dbt, Scikit-learn
+  - 
+**PhilosopherGPT** [Work still in progress] <br>
+This project gives you the chance to talk to some of the world's greatest philosophers, and helps you in your daily life.
+  - **_Technologies used:_** Python, OpenAI API, Qdrant database, Sentence Transformers, Streamlit.
+
 **Watch Movement Finder** [Try my web app here](https://watchmovfinder.streamlit.app/) <br>
 I've hand-collected a database of a thousand images of vintage chronograph movements (for the moment). The model detects 17 different movements with an F1 score close to 99%. I used a ResNet152 CNN.
   - **_Technologies used:_** Python, FastAI, Streamlit.

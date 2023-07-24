@@ -16,11 +16,11 @@
 - Created a project for a new learning path (BI Analyst)
 - Beta tested new projects for OpenClassrooms
   - **_Technologies used:_** Python, Tableau, Scikit-learn, knime.
-    <br><br>
+<br><br>
 
 **Jury for Artificial Intelligence Developer Certification** @ [Simplon.co](https://simplon.co/formation/exploiter-l-ia-dans-le-developpement-d-applications/60#presentation) _(Jan 2023 - Present)_ <br>
 Jury for Microsoft / Simplon.co / GRETA 21 Artificial Intelligence Developer certification.
-  <br><br>
+<br><br>
 
 **Marketing Intelligence & Data Teacher** @ [INSEEC](https://www.inseec.com/) _(Oct 2022 - Present)_ <br>
 Teaching a course about AI and applications in Marketing :
@@ -28,7 +28,7 @@ Teaching a course about AI and applications in Marketing :
 - Marketing Analytics
 - GDRP
 - Data Governance
-    <br><br>
+<br><br>
   
 **Data Analyst** @ [EDF](https://www.edf.fr/) _(Apr 2019 - Present)_ <br> 
 - Dashboard development and maintenance for the executive committee
@@ -74,10 +74,12 @@ Book reviewing and liveProject beta tester:
 **Watch Price Prediction** [Work still in progress] <br> 
 The aim of this project is to help you find the right price for a vintage watch based on its characteristics. 
   - **_Technologies used:_** Python, eBay API, Postgre, Dbt, Scikit-learn
-  - 
+<br><br>
+
 **PhilosopherGPT** [Work still in progress] <br>
 This project gives you the chance to talk to some of the world's greatest philosophers, and helps you in your daily life.
   - **_Technologies used:_** Python, OpenAI API, Qdrant database, Sentence Transformers, Streamlit.
+<br><br>
 
 **Watch Movement Finder** [Try my web app here](https://watchmovfinder.streamlit.app/) <br>
 I've hand-collected a database of a thousand images of vintage chronograph movements (for the moment). The model detects 17 different movements with an F1 score close to 99%. I used a ResNet152 CNN.

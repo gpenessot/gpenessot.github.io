@@ -64,9 +64,13 @@ Worked on data quality issues on [Carbon Bombs](https://github.com/dataforgoodfr
   <br><br>
   
 **Book Reviewer** @ [Manning Publications](https://www.manning.com/) _(May 2023 - Present)_ <br>
-Book reviewing and liveProject beta tester:
+Book reviewing:
 - Data Analysis From The Trenches, Gabriel Rigall
-- Software Engineering For Data Scientist, Andrew Treadway 
+- Software Engineering For Data Scientist, Andrew Treadway
+  
+liveProject beta testing:
+- Anomaly Detection Under the Hood, Sergio Solorzano
+
 <br><br>
 
 ## ⚙️ ML & AI Projects 

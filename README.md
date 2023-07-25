@@ -63,7 +63,7 @@ Worked on data quality issues on [Carbon Bombs](https://github.com/dataforgoodfr
   - Used LLM to get missing data from webscraping
   <br><br>
   
-**Book Reviewer** @ [Manning Publications](https://www.manning.com/) _(May 2023 - Present)_ <br>
+**Book Reviewer & beta tester** @ [Manning Publications](https://www.manning.com/) _(May 2023 - Present)_ <br>
 Book reviewing:
 - Data Analysis From The Trenches, Gabriel Rigall
 - Software Engineering For Data Scientist, Andrew Treadway

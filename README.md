@@ -80,7 +80,7 @@ The aim of this project is to help you find the right price for a vintage watch 
   - **_Technologies used:_** Python, eBay API, Postgre, Dbt, Scikit-learn
 <br><br>
 
-**PhilosopherGPT** [Work still in progress] <br>
+**PhilosopherGPT** [Try my web app here](https://philosophergpt.streamlit.app/) <br>
 This project gives you the chance to talk to some of the world's greatest philosophers, and helps you in your daily life.
   - **_Technologies used:_** Python, OpenAI API, Qdrant database, Sentence Transformers, Streamlit.
 <br><br>

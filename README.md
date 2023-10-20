@@ -87,7 +87,7 @@ The aim of this project is to provide a data engineering template to process dat
 
 **Meeting to Summary** [Code available on my Github here](https://github.com/gpenessot/pipeline_meeting_to_summary) <br> 
 The aim of this tool is to make people more productive at work by automatically producing meeting minutes from a video recording. 
-  - **_Technologies used:_** Python, eBay API, Postgre, Dbt, Scikit-learn
+  - **_Technologies used:_** Python, LLM, Transformers, Pydub, MoviePy
 <br><br>
 
 **PhilosopherGPT** [Try my web app here](https://philosophergpt.streamlit.app/) <br>

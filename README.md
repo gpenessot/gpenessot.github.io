@@ -75,8 +75,18 @@ liveProject beta testing:
 
 ## ⚙️ ML & AI Projects 
 
-**Watch Price Prediction** [Work still in progress] <br> 
-The aim of this project is to help you find the right price for a vintage watch based on its characteristics. 
+**SQL Questiosn for job interviews** [Try my web app here](https://huggingface.co/spaces/gpenessot/SQL_training_for_job_interviews) <br> 
+This tool is designed for those looking to test their SQL skills on a database in production. Database is deployed on [render.com](https://render.com/) server and the app on 🤗 HuggingFace.
+  - **_Technologies used:_** Python, PostgreSQL, Gradio
+<br><br>
+
+**Data Engineering Pipeline** [Work still in progress] <br> 
+The aim of this project is to provide a data engineering template to process data and make it easily accessible. 
+  - **_Technologies used:_** Python, Pydantic, Dbt, DuckDB, Flask
+<br><br>
+
+**Meeting to Summary** [Code available on my Github here](https://github.com/gpenessot/pipeline_meeting_to_summary) <br> 
+The aim of this tool is to make people more productive at work by automatically producing meeting minutes from a video recording. 
   - **_Technologies used:_** Python, eBay API, Postgre, Dbt, Scikit-learn
 <br><br>
 
@@ -99,20 +109,20 @@ This project was carried out with [Ummon HealthTech](https://www.ummonhealthtech
 ## 📜 Certificates
 **2023**<br>
 [edX - Large Language Models - Application through Production](https://github.com/gpenessot/Certificates/blob/master/edX%20-%20Large%20Language%20Models%20-%20Application%20through%20Production.png) <br>
-[OpenCV Deep Learning with PyTorch](https://courses.opencv.org/certificates/7e0fb96e887e4770a2076aa2cc22edef) <br>
+[OpenCV - Deep Learning with PyTorch](https://courses.opencv.org/certificates/7e0fb96e887e4770a2076aa2cc22edef) <br>
 [DeepLearning.AI - Generative Adversarial Networks (GANs)](https://www.coursera.org/account/accomplishments/specialization/certificate/JLJ7HG7L4A7A) <br>
 **2022** <br>
 [DeepLearning.AI - TensorFlow Developer](https://github.com/gpenessot/Certificates/blob/master/DeepLearning.AI%20-%20TensorFlow%20Developer.pdf) <br>
 [DataCamp - Data Engineer with Python](https://github.com/gpenessot/Certificates/blob/master/DataCamp_Data_Engineer_with_Python.pdf) <br>
-[INRIA Machine Learning in Python with Scikit_learn](https://github.com/gpenessot/Certificates/blob/master/INRIA_Machine%20Learning%20in%20Python%20with%20Scikit_learn.pdf) <br>
+[INRIA - Machine Learning in Python with Scikit_learn](https://github.com/gpenessot/Certificates/blob/master/INRIA_Machine%20Learning%20in%20Python%20with%20Scikit_learn.pdf) <br>
 **2021** <br>
-[DataCamp Data Scientist Professional](https://github.com/gpenessot/Certificates/blob/master/DataCamp_Data_Scientist_Professionnal_Certificate.png) <br>
+[DataCamp - Data Scientist Professional](https://github.com/gpenessot/Certificates/blob/master/DataCamp_Data_Scientist_Professionnal_Certificate.png) <br>
 **2020** <br>
-[edX Data Science Professional](https://github.com/gpenessot/Certificates/blob/master/edX_Data_Science_Professional_Certificate.pdf) <br>
-[Mathematics for Machine Learning](https://github.com/gpenessot/Certificates/blob/master/Coursera_Mathematics_for_Machine_Learning.pdf) <br>
+[edX - Data Science Professional](https://github.com/gpenessot/Certificates/blob/master/edX_Data_Science_Professional_Certificate.pdf) <br>
+[Imperial College London - Mathematics for Machine Learning](https://github.com/gpenessot/Certificates/blob/master/Coursera_Mathematics_for_Machine_Learning.pdf) <br>
 **2018** <br>
-[IBM Data Science Professional](https://github.com/gpenessot/Certificates/blob/master/Coursera_IBM_Data_Science_Professional_Certificate.pdf) <br>
-[Stanford Machine Learning](https://github.com/gpenessot/Certificates/blob/master/Coursera_Machine_Learning.pdf) <br><br>
+[IBM - Data Science Professional](https://github.com/gpenessot/Certificates/blob/master/Coursera_IBM_Data_Science_Professional_Certificate.pdf) <br>
+[StanfordX - Machine Learning](https://github.com/gpenessot/Certificates/blob/master/Coursera_Machine_Learning.pdf) <br><br>
 
 ## 🗺 Languages
 

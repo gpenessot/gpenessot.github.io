@@ -58,7 +58,7 @@ As part of the EPR 2 project, realization of various cost studies on passive saf
 ## 📌 Volunteering
 
 **Volunteer** @ [Data for Good](https://dataforgood.fr/) _(May 2023 - Present)_<br>
-Worked on data quality issues on [Carbon Bombs](https://github.com/dataforgoodfr/CarbonBombs) project :
+Worked on data quality issues on [Carbon Bombs](https://www.carbonbombs.org/) project :
   - Webscraping to complete a database about oil and gas projects
   - Used LLM to get missing data from webscraping
   <br><br>

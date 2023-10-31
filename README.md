@@ -67,6 +67,7 @@ Worked on data quality issues on [Carbon Bombs](https://www.carbonbombs.org/) pr
 Book reviewing:
 - Data Analysis From The Trenches, Gabriel Rigall
 - Software Engineering For Data Scientist, Andrew Treadway
+- Solve Any Data Analysis Problem!, David Asboth
   
 liveProject beta testing:
 - Anomaly Detection Under the Hood, Sergio Solorzano

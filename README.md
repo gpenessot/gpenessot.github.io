@@ -30,7 +30,7 @@ Teaching a course about AI and applications in Marketing :
 - Data Governance
 <br><br>
   
-**Data Analyst** @ [EDF](https://www.edf.fr/) _(Apr 2019 - Present)_ <br> 
+**Data Analyst / Scientist** @ [EDF](https://www.edf.fr/) _(Apr 2019 - Present)_ <br> 
 - Dashboard development and maintenance for the executive committee
 - Tools developement for operationnal management in cooperation with managers
 - Automation of data processing and dashboards updating

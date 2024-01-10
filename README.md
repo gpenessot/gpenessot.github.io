@@ -4,6 +4,9 @@
 
 ## 💻 Experience
 
+**Auteur** @ [Editions ENI](https://www.editions-eni.fr/) _(Jan 2024 - Present)_ <br>
+- Business Intelligence with Python
+
 **Deep Learning Project Mentor** @ [DataScientest](https://datascientest.com/) _(Apr 2023 - Present)_ <br>
 - Mentoring several groups of learners on the subject of computer vision and deep learning. 
 - Building skills with deep learning methodology, and also helping learners mastering tools such as TensorFlow and OpenCV.

@@ -6,6 +6,7 @@
 
 **Auteur** @ [Editions ENI](https://www.editions-eni.fr/) _(Jan 2024 - Present)_ <br>
 - Business Intelligence with Python
+<br><br>
 
 **Deep Learning Project Mentor** @ [DataScientest](https://datascientest.com/) _(Apr 2023 - Present)_ <br>
 - Mentoring several groups of learners on the subject of computer vision and deep learning. 

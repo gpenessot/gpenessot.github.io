@@ -4,7 +4,7 @@
 
 ## 💻 Experience
 
-**Auteur** @ [Editions ENI](https://www.editions-eni.fr/) _(Jan 2024 - Present)_ <br>
+**Technical Writer** @ [Editions ENI](https://www.editions-eni.fr/) _(Jan 2024 - Present)_ <br>
 - Business Intelligence with Python 🐍
 <br><br>
 

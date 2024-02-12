@@ -19,7 +19,7 @@
 - Monitoring the production of deliverables (10 projects)
 - Created a project for a new learning path (BI Analyst)
 - Beta tested new projects for OpenClassrooms
-  - **_Technologies used:_** Python, Tableau, Scikit-learn, knime.
+  - **_Technologies used:_** Python, Tableau, SQL, Scikit-learn, knime.
 <br><br>
 
 **Jury for Artificial Intelligence Developer Certification** @ [Simplon.co](https://simplon.co/formation/exploiter-l-ia-dans-le-developpement-d-applications/60#presentation) _(Jan 2023 - Present)_ <br>

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaël Penessot | Entrepreneur Data, Formateur Python & Auteur</title>
+    <meta
+      name="description"
+      content="Entrepreneur data, formateur Python et auteur. Je transforme la data en compétences et en produits. TOP 10 créateurs data France. Auteur chez Éditions ENI. Instructeur LinkedIn Learning."
+    />
+    <meta property="og:title" content="Gaël Penessot | Entrepreneur Data & Auteur Python" />
+    <meta property="og:description" content="Je transforme la data en compétences et en produits. Formateur, auteur, créateur de contenu data." />
+    <meta property="og:url" content="https://gpenessot.github.io" />
+    <meta property="og:type" content="website" />
+    <style>
+      :root {
+        --primary: #a855f7;
+        --primary-dark: #9333ea;
+        --primary-glow: #7c3aed;
+        --text: #f1f5f9;
+        --subtle: #94a3b8;
+        --bg: #0d0d1a;
+        --bg-card: #13132b;
+        --bg-light: #0f0f22;
+        --border: rgba(168, 85, 247, 0.15);
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        color: var(--text);
+        line-height: 1.6;
+        background: var(--bg);
+        background-image:
+          radial-gradient(ellipse 80% 50% at 50% -20%, rgba(124, 58, 237, 0.25) 0%, transparent 60%),
+          radial-gradient(ellipse 60% 40% at 80% 80%, rgba(168, 85, 247, 0.1) 0%, transparent 50%);
+      }
+
+      /* Navigation */
+      nav {
+        position: sticky;
+        top: 0;
+        background: rgba(13, 13, 26, 0.85);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--border);
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+      }
+      .nav-name {
+        font-weight: 700;
+        background: linear-gradient(135deg, #a855f7, #c084fc);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .nav-links a {
+        margin-left: 1.5rem;
+        text-decoration: none;
+        color: var(--subtle);
+        font-size: 0.9rem;
+        transition: color 0.2s;
+      }
+      .nav-links a:hover {
+        color: var(--primary);
+      }
+
+      /* Sections */
+      section {
+        padding: 5rem 2rem;
+        max-width: 860px;
+        margin: 0 auto;
+      }
+
+      /* Hero */
+      .hero {
+        text-align: center;
+        padding-top: 6rem;
+      }
+      .hero h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+      }
+      .hero h1 span {
+        background: linear-gradient(135deg, #a855f7, #ec4899);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .hero p {
+        font-size: 1.15rem;
+        color: var(--subtle);
+        max-width: 600px;
+        margin: 0 auto 2rem;
+      }
+      .hero-badges {
+        display: flex;
+        justify-content: center;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+      }
+      .badge {
+        background: rgba(168, 85, 247, 0.12);
+        color: #c084fc;
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 0.3rem 0.8rem;
+        border-radius: 999px;
+        border: 1px solid rgba(168, 85, 247, 0.35);
+      }
+      .btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        margin: 0.25rem;
+        transition: all 0.2s;
+      }
+      .btn-primary {
+        background: linear-gradient(135deg, #7c3aed, #a855f7);
+        color: white;
+        box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
+      }
+      .btn-primary:hover {
+        background: linear-gradient(135deg, #6d28d9, #9333ea);
+        box-shadow: 0 0 28px rgba(124, 58, 237, 0.6);
+      }
+      .btn-secondary {
+        border: 2px solid rgba(168, 85, 247, 0.5);
+        color: var(--primary);
+      }
+      .btn-secondary:hover {
+        border-color: var(--primary);
+        background: rgba(168, 85, 247, 0.08);
+      }
+
+      /* Titres de section */
+      h2 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        color: var(--text);
+      }
+      h2::after {
+        content: '';
+        display: block;
+        width: 40px;
+        height: 4px;
+        background: linear-gradient(90deg, #7c3aed, #a855f7);
+        margin-top: 0.5rem;
+        border-radius: 2px;
+        box-shadow: 0 0 8px rgba(168, 85, 247, 0.5);
+      }
+
+      /* Métriques */
+      .metrics-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+      .metric-card {
+        text-align: center;
+        padding: 1.25rem 1rem;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: var(--bg-card);
+        transition: border-color 0.2s, box-shadow 0.2s;
+      }
+      .metric-card:hover {
+        border-color: rgba(168, 85, 247, 0.4);
+        box-shadow: 0 0 20px rgba(124, 58, 237, 0.15);
+      }
+      .metric-card .number {
+        font-size: 1.75rem;
+        font-weight: 800;
+        background: linear-gradient(135deg, #a855f7, #c084fc);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .metric-card .label {
+        font-size: 0.8rem;
+        color: var(--subtle);
+        margin-top: 0.25rem;
+      }
+
+      /* À propos */
+      .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+      .skills-list {
+        list-style: none;
+      }
+      .skills-list li {
+        padding: 0.4rem 0;
+        border-bottom: 1px solid var(--border);
+        font-size: 0.95rem;
+        color: var(--subtle);
+      }
+      .skills-title {
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        color: var(--text);
+      }
+      .contact-intro {
+        margin-bottom: 1.5rem;
+        color: var(--subtle);
+      }
+      .skills-list li::before {
+        content: '▸ ';
+        color: var(--primary);
+      }
+
+      /* Projets */
+      .projects-bg {
+        background: var(--bg-light);
+        background-image: radial-gradient(ellipse 60% 50% at 30% 50%, rgba(124, 58, 237, 0.07) 0%, transparent 60%);
+        padding: 5rem 2rem;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
+      .projects-inner {
+        max-width: 860px;
+        margin: 0 auto;
+      }
+      .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.5rem;
+      }
+      .project-card {
+        background: var(--bg-card);
+        border-radius: 12px;
+        padding: 1.5rem;
+        border: 1px solid var(--border);
+        transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+      }
+      .project-card:hover {
+        box-shadow: 0 8px 32px rgba(124, 58, 237, 0.2);
+        border-color: rgba(168, 85, 247, 0.4);
+        transform: translateY(-2px);
+      }
+      .project-card h3 {
+        font-size: 1.05rem;
+        margin-bottom: 0.5rem;
+        color: var(--text);
+      }
+      .project-card p {
+        font-size: 0.9rem;
+        color: var(--subtle);
+        margin-bottom: 1rem;
+      }
+      .tag {
+        display: inline-block;
+        background: rgba(168, 85, 247, 0.12);
+        color: #c084fc;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 4px;
+        margin: 0.15rem;
+        border: 1px solid rgba(168, 85, 247, 0.2);
+      }
+      .project-links {
+        margin-top: 1rem;
+      }
+      .project-links a {
+        font-size: 0.85rem;
+        color: var(--primary);
+        text-decoration: none;
+        margin-right: 1rem;
+        font-weight: 600;
+        transition: color 0.2s;
+      }
+      .project-links a:hover {
+        color: #c084fc;
+      }
+      .text-link {
+        color: var(--primary);
+      }
+      .text-link:hover {
+        color: #c084fc;
+      }
+
+      /* Contact */
+      .contact-links {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+      .contact-links a {
+        display: inline-block;
+        padding: 0.6rem 1.2rem;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        text-decoration: none;
+        color: var(--subtle);
+        font-size: 0.9rem;
+        font-weight: 500;
+        background: var(--bg-card);
+        transition: all 0.2s;
+      }
+      .contact-links a:hover {
+        border-color: rgba(168, 85, 247, 0.5);
+        color: var(--primary);
+        box-shadow: 0 0 12px rgba(124, 58, 237, 0.2);
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        padding: 2rem;
+        color: var(--subtle);
+        font-size: 0.85rem;
+        border-top: 1px solid var(--border);
+        background: var(--bg);
+      }
+
+      /* Responsive */
+      @media (max-width: 640px) {
+        .hero h1 {
+          font-size: 1.75rem;
+        }
+        .about-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <span class="nav-name">Gaël Penessot</span>
+      <div class="nav-links">
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <h1>Je transforme la data en<br /><span>compétences et en produits</span></h1>
+      <div class="hero-badges">
+        <span class="badge">TOP 10 créateurs data · France</span>
+        <span class="badge">Auteur · Éditions ENI</span>
+        <span class="badge">Instructeur · LinkedIn Learning</span>
+      </div>
+      <p>
+        Entrepreneur data, formateur Python et auteur — j'aide les professionnels
+        à maîtriser les outils modernes de la data pour décider mieux et aller plus vite.
+      </p>
+      <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+      <a href="https://linkedin.com/in/gael-penessot" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </section>
+
+    <!-- À propos -->
+    <section id="about">
+      <h2>À propos</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            Après 10+ années dans le secteur industriel, je me suis reconverti pour aider les professionnels
+            à progresser sur Python et la data. Auteur de <em>Business Intelligence avec Python</em>
+            (Éditions ENI, 2025, 600+ lecteurs), instructeur sur LinkedIn Learning, et créateur de
+            formations sur <a href="https://mes-formations-data.fr" target="_blank" rel="noopener noreferrer" class="text-link">mes-formations-data.fr</a>.
+          </p>
+          <br />
+          <p>
+            Je publie aussi la newsletter <strong>DataGyver</strong> — chaque mois, du contenu concret
+            sur Python, SQL et Git pour les praticiens de la data.
+          </p>
+        </div>
+        <div>
+          <p class="skills-title">Stack technique</p>
+          <ul class="skills-list">
+            <li>Python — Polars, Pandas, DuckDB</li>
+            <li>Visualisation — Streamlit, Plotly, Quarto</li>
+            <li>SQL — PostgreSQL, DuckDB</li>
+            <li>MLOps — FastAPI, Docker, pre-commit</li>
+            <li>Tooling — uv, Ruff, Git</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="number">29k</div>
+          <div class="label">followers LinkedIn</div>
+        </div>
+        <div class="metric-card">
+          <div class="number">1 500+</div>
+          <div class="label">abonnés newsletter</div>
+        </div>
+        <div class="metric-card">
+          <div class="number">600+</div>
+          <div class="label">lecteurs du livre</div>
+        </div>
+        <div class="metric-card">
+          <div class="number">70+</div>
+          <div class="label">clients formés</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projets -->
+    <div class="projects-bg" id="projects">
+      <div class="projects-inner">
+        <h2>Projets</h2>
+        <div class="projects-grid">
+
+          <!-- Livre -->
+          <div class="project-card">
+            <h3>Business Intelligence avec Python</h3>
+            <p>
+              La chaîne BI complète en Python : collecte, transformation, visualisation et automatisation.
+              600+ lecteurs · 2e édition prévue fin 2026.
+            </p>
+            <div>
+              <span class="tag">Python</span>
+              <span class="tag">Polars</span>
+              <span class="tag">DuckDB</span>
+              <span class="tag">Streamlit</span>
+            </div>
+            <div class="project-links">
+              <a href="https://www.editions-eni.fr/" target="_blank" rel="noopener noreferrer">Voir le livre →</a>
+              <a href="https://github.com/gpenessot" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+
+          <!-- Formations -->
+          <div class="project-card">
+            <h3>Formations data — mes-formations-data.fr</h3>
+            <p>
+              Bootcamp BI avec Python, Streamlit Unleashed (best-seller), SQL Mastery, Portfolio Impactant.
+              Des formations courtes et actionnables pour les praticiens.
+            </p>
+            <div>
+              <span class="tag">Python</span>
+              <span class="tag">Streamlit</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Portfolio</span>
+            </div>
+            <div class="project-links">
+              <a href="https://mes-formations-data.fr" target="_blank" rel="noopener noreferrer">Voir les formations →</a>
+            </div>
+          </div>
+
+          <!-- LinkedIn Learning -->
+          <div class="project-card">
+            <h3>Cours Polars — LinkedIn Learning</h3>
+            <p>
+              Cours vidéo sur Polars, le DataFrame moderne qui remplace Pandas en termes de performance.
+              Disponible sur LinkedIn Learning.
+            </p>
+            <div>
+              <span class="tag">Python</span>
+              <span class="tag">Polars</span>
+              <span class="tag">Data Engineering</span>
+            </div>
+            <div class="project-links">
+              <a href="https://www.linkedin.com/learning/" target="_blank" rel="noopener noreferrer">Voir le cours →</a>
+            </div>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="project-card">
+            <h3>Newsletter DataGyver</h3>
+            <p>
+              1 500+ abonnés. Chaque mois : Python moderne, SQL, Git et outillage data —
+              du contenu concret sans blabla.
+            </p>
+            <div>
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Git</span>
+              <span class="tag">Contenu</span>
+            </div>
+            <div class="project-links">
+              <a href="https://datagyver.substack.com" target="_blank" rel="noopener noreferrer">S'abonner →</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p class="contact-intro">
+        Ouvert aux collaborations — formation, conseil, co-édition, prises de parole.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:gael.penessot@data-decision.io">Email</a>
+        <a href="https://linkedin.com/in/gael-penessot" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/gpenessot" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://datagyver.substack.com" target="_blank" rel="noopener noreferrer">Newsletter</a>
+        <a href="https://www.data-decision.io/" target="_blank" rel="noopener noreferrer">data-decision.io</a>
+      </div>
+    </section>
+
+    <footer>Gaël Penessot &mdash; France &mdash; 2026</footer>
+  </body>
+</html>

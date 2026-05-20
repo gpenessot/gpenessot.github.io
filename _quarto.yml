@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Portfolio Gael Penessot"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: about.qmd
+        text: À propos
+      - href: projets.qmd
+        text: Projets
+    right:
+      - icon: github
+        href: https://github.com/gpenessot
+      - icon: linkedin
+        href: https://linkedin.com/in/gael-penessot
+  page-footer:
+    left: "Gaël Penessot — France"
+
+format:
+  html:
+    theme:
+      - vapor
+      - brand
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,18 @@
+---
+title: "Bonjour, je suis Gaël"
+description: "Data Analyst spécialisé Python et Business Intelligence"
+page-layout: full
+---
+
+Data Analyst et auteur spécialisé en **Python** et **Business Intelligence**.
+Je transforme des données brutes en décisions actionnables pour les équipes opérationnelles.
+
+[Voir mes projets](projets.qmd){.btn .btn-primary}
+[Me contacter](mailto:gael.penessot@data-decision.io){.btn .btn-outline-secondary}
+
+## Projets récents
+
+| Projet | Impact | Stack |
+|--------|--------|-------|
+| [Prédiction churn](projets.qmd) | Réduction 18% taux de départ | Python, Scikit-learn |
+| [Dashboard BI](projets.qmd) | Automatisation reporting CODIR | Python, Power BI |

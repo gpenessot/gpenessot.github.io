@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "projets.html",
+    "href": "projets.html",
+    "title": "Projets",
+    "section": "",
+    "text": "Contexte : Identifier les clients à risque de départ 3 mois avant la résiliation.\nRésultat : Réduction de 18% du churn sur les segments prioritaires.\nStack : Python · Scikit-learn · Pandas · Streamlit · Docker\nVoir la démo Code source"
+  },
+  {
+    "objectID": "projets.html#prédiction-du-churn-client",
+    "href": "projets.html#prédiction-du-churn-client",
+    "title": "Projets",
+    "section": "",
+    "text": "Contexte : Identifier les clients à risque de départ 3 mois avant la résiliation.\nRésultat : Réduction de 18% du churn sur les segments prioritaires.\nStack : Python · Scikit-learn · Pandas · Streamlit · Docker\nVoir la démo Code source"
+  },
+  {
+    "objectID": "projets.html#dashboard-exécutif-automatisé",
+    "href": "projets.html#dashboard-exécutif-automatisé",
+    "title": "Projets",
+    "section": "Dashboard exécutif automatisé",
+    "text": "Dashboard exécutif automatisé\nContexte : Automatisation du reporting mensuel pour le comité de direction.\nRésultat : 4 jours de travail manuel éliminés chaque mois.\nStack : Python · Power BI · SQL · Luigi\nCode source"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bonjour, je suis Gaël",
+    "section": "",
+    "text": "Data Analyst et auteur spécialisé en Python et Business Intelligence. Je transforme des données brutes en décisions actionnables pour les équipes opérationnelles.\nVoir mes projets Me contacter"
+  },
+  {
+    "objectID": "index.html#projets-récents",
+    "href": "index.html#projets-récents",
+    "title": "Bonjour, je suis Gaël",
+    "section": "Projets récents",
+    "text": "Projets récents\n\n\n\nProjet\nImpact\nStack\n\n\n\n\nPrédiction churn\nRéduction 18% taux de départ\nPython, Scikit-learn\n\n\nDashboard BI\nAutomatisation reporting CODIR\nPython, Power BI"
+  }
+]

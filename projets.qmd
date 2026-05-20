@@ -1,0 +1,27 @@
+---
+title: "Projets"
+description: "Projets avec impact business mesurable."
+---
+
+## Prédiction du churn client
+
+**Contexte :** Identifier les clients à risque de départ 3 mois avant la résiliation.
+
+**Résultat :** Réduction de 18% du churn sur les segments prioritaires.
+
+**Stack :** Python · Scikit-learn · Pandas · Streamlit · Docker
+
+[Voir la démo](https://votre-demo.streamlit.app){.btn .btn-sm .btn-primary}
+[Code source](https://github.com/gpenessot/projet-churn){.btn .btn-sm .btn-outline-secondary}
+
+---
+
+## Dashboard exécutif automatisé
+
+**Contexte :** Automatisation du reporting mensuel pour le comité de direction.
+
+**Résultat :** 4 jours de travail manuel éliminés chaque mois.
+
+**Stack :** Python · Power BI · SQL · Luigi
+
+[Code source](https://github.com/gpenessot/dashboard-bi){.btn .btn-sm .btn-outline-secondary}

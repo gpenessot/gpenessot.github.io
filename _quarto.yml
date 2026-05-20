@@ -3,7 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "Portfolio Gael Penessot"
+  title: "Gaël Penessot | Data Analytics & AI"
+  description: "Data Analyst spécialisé Python et Business Intelligence. Auteur, formateur et consultant."
   navbar:
     left:
       - href: index.qmd
@@ -12,6 +13,8 @@ website:
         text: À propos
       - href: projets.qmd
         text: Projets
+      - href: analyse-churn.ipynb
+        text: Analyse
     right:
       - icon: github
         href: https://github.com/gpenessot
@@ -19,14 +22,14 @@ website:
         href: https://linkedin.com/in/gael-penessot
   page-footer:
     left: "Gaël Penessot — France"
+    right: "2026"
 
 format:
   html:
-    theme:
-      - vapor
-      - brand
+    theme: vapor
     css: styles.css
-    toc: true
+    toc: false
 
-
-
+# Analytics — décommentez et remplacez par votre ID Google Analytics
+# website:
+#   google-analytics: "G-XXXXXXXXXX"

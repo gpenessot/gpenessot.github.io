@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Projets avec impact business mesurable.">
+<meta name="description" content="Exploration des facteurs de résiliation sur un dataset télécom.">
 
-<title>Projets – Gaël Penessot | Data Analytics &amp; AI</title>
+<title>Analyse du churn client – Gaël Penessot | Data Analytics &amp; AI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -99,11 +134,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">À propos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projets.html" aria-current="page"> 
+    <a class="nav-link" href="./projets.html"> 
 <span class="menu-text">Projets</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./analyse-churn.html"> 
+    <a class="nav-link active" href="./analyse-churn.html" aria-current="page"> 
 <span class="menu-text">Analyse</span></a>
   </li>  
 </ul>
@@ -135,12 +170,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projets</h1>
+<h1 class="title">Analyse du churn client</h1>
 </div>
 
 <div>
   <div class="description">
-    Projets avec impact business mesurable.
+    Exploration des facteurs de résiliation sur un dataset télécom.
   </div>
 </div>
 
@@ -157,20 +192,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="prédiction-du-churn-client" class="level2">
-<h2 class="anchored" data-anchor-id="prédiction-du-churn-client">Prédiction du churn client</h2>
-<p><strong>Contexte :</strong> Identifier les clients à risque de départ 3 mois avant la résiliation.</p>
-<p><strong>Résultat :</strong> Réduction de 18% du churn sur les segments prioritaires.</p>
-<p><strong>Stack :</strong> Python · Scikit-learn · Pandas · Streamlit · Docker</p>
-<p><a href="https://votre-demo.streamlit.app" class="btn btn-sm btn-primary">Voir la démo</a> <a href="https://github.com/gpenessot/projet-churn" class="btn btn-sm btn-outline-secondary">Code source</a></p>
-<hr>
+<section id="contexte" class="level2">
+<h2 class="anchored" data-anchor-id="contexte">Contexte</h2>
+<p>Un opérateur télécom veut identifier les clients susceptibles de résilier leur abonnement dans les 3 prochains mois. On explore ici les variables les plus discriminantes avant de construire un modèle prédictif.</p>
+<div id="cell-2" class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Données synthétiques — remplacer par votre dataset réel</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"segment"</span>: [<span class="st">"&lt;1 an"</span>, <span class="st">"1–2 ans"</span>, <span class="st">"2–3 ans"</span>, <span class="st">"3–5 ans"</span>, <span class="st">"&gt;5 ans"</span>],</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"taux_churn"</span>: [<span class="fl">0.32</span>, <span class="fl">0.21</span>, <span class="fl">0.14</span>, <span class="fl">0.08</span>, <span class="fl">0.04</span>],</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="cell-3" class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">4</span>))</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>ax.bar(df[<span class="st">"segment"</span>], df[<span class="st">"taux_churn"</span>], color<span class="op">=</span><span class="st">"#2563eb"</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">"Ancienneté client"</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">"Taux de churn"</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">"Taux de churn par ancienneté"</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>ax.yaxis.set_major_formatter(plt.FuncFormatter(<span class="kw">lambda</span> y, _: <span class="ss">f"</span><span class="sc">{</span>y<span class="sc">:.0%}</span><span class="ss">"</span>))</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
-<section id="dashboard-exécutif-automatisé" class="level2">
-<h2 class="anchored" data-anchor-id="dashboard-exécutif-automatisé">Dashboard exécutif automatisé</h2>
-<p><strong>Contexte :</strong> Automatisation du reporting mensuel pour le comité de direction.</p>
-<p><strong>Résultat :</strong> 4 jours de travail manuel éliminés chaque mois.</p>
-<p><strong>Stack :</strong> Python · Power BI · SQL · Luigi</p>
-<p><a href="https://github.com/gpenessot/dashboard-bi" class="btn btn-sm btn-outline-secondary">Code source</a></p>
+<section id="observation" class="level2">
+<h2 class="anchored" data-anchor-id="observation">Observation</h2>
+<p>Le taux de churn est <strong>8× plus élevé</strong> chez les clients de moins d’un an que chez ceux fidélisés depuis plus de 5 ans. L’ancienneté est le premier signal d’alerte — le modèle prédictif doit en faire une variable centrale.</p>
 
 
 </section>

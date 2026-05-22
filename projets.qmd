@@ -16,6 +16,19 @@ description: "Projets avec impact business mesurable."
 
 ---
 
+## Competitive Marketing Analysis
+
+**Contexte :** Analyse des performances commerciales par canal de distribution sur données publiques Microsoft.
+
+**Résultat :** Online représente 46 % des ventes ($15K, ROI 12 %) ; Outlet marginal (4 %) mais meilleur ROI (18 %).
+
+**Stack :** Power BI · DAX · Data Visualisation
+
+[Voir le dashboard](competitive-marketing-analysis.qmd){.btn .btn-sm .btn-primary}
+[Source PBIX](https://github.com/microsoft/powerbi-desktop-samples){.btn .btn-sm .btn-outline-secondary}
+
+---
+
 ## Dashboard exécutif automatisé
 
 **Contexte :** Automatisation du reporting mensuel pour le comité de direction.
